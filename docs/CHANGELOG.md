@@ -1,10 +1,10 @@
 # 0.0.8
 - upload to github
-- 📖 documentation readme + docgen
+- 📖 documentation readme + docgen 
+- 🔊 changelog
 - 📇💚 metadata (gitignore, pkg, travis)
 - ℹ️️👣  code with jsdocs
 - 📝 todos
-- 🔊 changelog
 
 # 0.0.7
 - ⚙ stdout option on ScriptChain
