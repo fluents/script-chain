@@ -1,0 +1,60 @@
+{
+  "name": "script-chain",
+  "version": "0.0.8",
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "description": "fluent script building",
+  "scripts": {
+    "diggy:nested": "node test/fixtures/diggy.js",
+    "diggy": "node test/fixtures/diggy.js",
+    "test": "ava --verbose"
+  },
+  "unusedDependencies": {
+    "npm-run-path": "2.0.2",
+    "np": "*",
+    "semver": "^5.3.0",
+    "flipcache": "*",
+    "izz": "*",
+    "dargs": "5.1.0"
+  },
+  "devDependencies": {
+    "fluent-skeleton": "*",
+    "ava": "^0.19.0",
+    "fosho": "*"
+  },
+  "dependencies": {
+    "obj-chain-core": "0.0.5",
+    "obj-chain-plugin-config": "0.0.5",
+    "execa": "0.6.3",
+    "flipchain": "*",
+    "flipfile": "*",
+    "flipglob": "*",
+    "fliphub-core": "*",
+    "fliplog": "*",
+    "fliptime": "*",
+    "insert-at-index": "*",
+    "likeaboss": "*",
+    "to-arr": "*",
+    "funwithflags": "*"
+  },
+  "keywords": [
+    "fluent",
+    "flags",
+    "scripts",
+    "package-scripts",
+    "pkgflip",
+    "flipscript",
+    "fliphub",
+    "flipbox"
+  ],
+  "license": "MIT",
+  "author": "James <aretecode@gmail.com>",
+  "homepage": "https://github.com/fliphub/fliphub#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fliphub/fliphub.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fliphub/fliphub/issues"
+  }
+}
